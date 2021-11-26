@@ -16,13 +16,23 @@ public class Accueil extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accueil);
 
-        membres= findViewById(R.id.bouton_membres);
+        findViewById(R.id.boutonMembres).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Accueil.this, MembresActivity.class));
+            }
+        });
+
+
+
+
+        /*membres= findViewById(R.id.bouton_membres);
         membres.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Accueil.this, MembresActivity.class);
                 startActivity(intent);
             }
-        });
+        });*/
     }
 }
