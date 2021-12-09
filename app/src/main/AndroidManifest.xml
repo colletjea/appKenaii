@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppKenai">
         <activity
+            android:name=".Bonus"
+            android:exported="true" />
+        <activity
+            android:name=".FAQ"
+            android:exported="true" />
+        <activity
+            android:name=".PlanningDesSports"
+            android:exported="true" />
+        <activity
+            android:name=".ReferentsSports"
+            android:exported="true" />
+        <activity
             android:name=".MembresActivity"
             android:exported="true" />
         <activity

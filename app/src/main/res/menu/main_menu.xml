@@ -8,13 +8,28 @@
           app:showAsAction="never"
           android:title="accueil" /> <!-- apparait dans le pop up du menu -->
 
-    <item android:id="@+id/menu_event"
+    <item android:id="@+id/menu_referentsSports"
         android:orderInCategory="100"
         app:showAsAction="never"
-        android:title="event" />
+        android:title="Référents sports" />
 
-    <item android:id="@+id/menu_faq"
+    <item android:id="@+id/menu_Event"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Event" />
+
+    <item android:id="@+id/menu_PlanningDesSports"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Planning des sports" />
+
+    <item android:id="@+id/menu_FAQ"
         android:orderInCategory="100"
         app:showAsAction="never"
         android:title="FAQ" />
+
+    <item android:id="@+id/menu_Bonus"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Bonus" />
 </menu>

@@ -16,15 +16,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_accueil);
-
+        //setContentView(R.layout.activity_membres);
+        Intent intent = new Intent(getApplication(), Accueil.class);
+        startActivity(intent);
 
 
     }
 
-    //@Override
-    //public boolean onCreateOptionsMenu(Menu menu) {
-    //    getMenuInflater().inflate(R.menu.main_menu, menu);
-    //    return true;
-    //}
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
 }//test2
