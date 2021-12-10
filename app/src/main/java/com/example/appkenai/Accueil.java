@@ -43,8 +43,9 @@ public class Accueil extends AppCompatActivity {
         //page event
         Button buttonAllerSurEvent=findViewById(R.id.buttonVersEvent);
         buttonAllerSurEvent.setOnClickListener(new View.OnClickListener() {
+
             public void onClick(View v) {
-                Intent intent = new Intent(getApplication(), MembresActivity.class);// A CHANGER
+                Intent intent = new Intent(getApplication(), ListingEvent.class);// A CHANGER
                 startActivity(intent);
             }
         });

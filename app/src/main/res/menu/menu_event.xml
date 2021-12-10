@@ -4,9 +4,9 @@
 
 
     <item android:id="@+id/menu_accueil"
-          android:orderInCategory="100"
-          app:showAsAction="never"
-          android:title="accueil" /> <!-- apparait dans le pop up du menu -->
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="accueil" /> <!-- apparait dans le pop up du menu -->
 
     <item android:id="@+id/menu_referentsSports"
         android:orderInCategory="100"
@@ -33,4 +33,8 @@
         app:showAsAction="never"
         android:title="Bonus" />
 
+    <item android:id="@+id/menu_Ajout_Event"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Ajout Event" />
 </menu>
