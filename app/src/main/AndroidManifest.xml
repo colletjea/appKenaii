@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppKenai">
         <activity
+            android:name=".CreateEvent"
+            android:exported="true" />
+        <activity
+            android:name=".EventListAdapter"
+            android:exported="true" />
+        <activity
+            android:name=".ListingEvent"
+            android:exported="true" />
+        <activity
             android:name=".Bonus"
             android:exported="true" />
         <activity
