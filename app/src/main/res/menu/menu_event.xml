@@ -36,5 +36,5 @@
     <item android:id="@+id/menu_Ajout_Event"
         android:orderInCategory="100"
         app:showAsAction="never"
-        android:title="Ajout Event" />
+        android:title="Modifs Event" />
 </menu>
