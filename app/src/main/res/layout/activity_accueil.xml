@@ -6,6 +6,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:background="@drawable/ic_launcher_foreground">
 
+    <!-- entête -->
     <ImageView
         android:id="@+id/logoKenai"
         android:layout_width="110dp"
