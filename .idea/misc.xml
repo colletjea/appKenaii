@@ -9,22 +9,21 @@
         <entry key="..\:/ESIEE/E4/LE1/appKenai/app/src/main/res/layout/activity_main.xml" value="0.1265625" />
         <entry key="..\:/ESIEE/E4/LE1/appKenai/app/src/main/res/layout/activity_main2.xml" value="0.13333333333333333" />
         <entry key="..\:/ESIEE/E4/LE1/appKenai/app/src/main/res/layout/activity_main3.xml" value="0.1265625" />
-        <entry key="..\:/Users/Utilisateur/AndroidStudioProjects/appKenaii/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25462962962962965" />
         <entry key="..\:/Users/Utilisateur/AndroidStudioProjects/appKenaii/app/src/main/res/layout/activity_accueil.xml" value="0.2" />
         <entry key="..\:/Users/Utilisateur/AndroidStudioProjects/appKenaii/app/src/main/res/layout/activity_membres.xml" value="0.1" />
         <entry key="..\:/Users/Utilisateur/AndroidStudioProjects/appKenaii/app/src/main/res/layout/activity_planning_des_sports.xml" value="0.12183383991894631" />
-        <entry key="..\:/Users/Utilisateur/AndroidStudioProjects/appKenaii/app/src/main/res/layout/activity_presentation_membres_x.xml" value="0.2" />
-        <entry key="..\:/Users/Utilisateur/AndroidStudioProjects/appKenaii/app/src/main/res/layout/content_membres_clemence.xml" value="0.2552083333333333" />
-        <entry key="..\:/Users/Utilisateur/AndroidStudioProjects/appKenaii/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25462962962962965" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_accueil.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_bonus.xml" value="0.36231884057971014" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_calendar.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_create_event.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_event2.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_faq.xml" value="0.36231884057971014" />
+        <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_faq.xml" value="0.325" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_main.xml" value="0.30416666666666664" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_membres.xml" value="0.23125" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_planning_des_sports.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_presentation_membres_x.xml" value="0.4" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/activity_referents_sports.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/adapter_view_layout.xml" value="0.13072916666666667" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/calendar_layout.xml" value="0.3171875" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/content_planning_des_sports.xml" value="0.20572916666666666" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/current_view.xml" value="0.11822916666666666" />
@@ -32,6 +31,8 @@
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/event_view.xml" value="0.17300724637681159" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/layout/fragment_second.xml" value="0.20572916666666666" />
         <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/menu/main_menu.xml" value="0.1" />
+        <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/plamt/.android/studio/appKenaii/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14739583333333334" />
       </map>
     </option>
   </component>

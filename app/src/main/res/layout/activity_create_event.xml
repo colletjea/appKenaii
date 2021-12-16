@@ -44,7 +44,7 @@
         android:ems="10"
         android:gravity="center"
         android:hint="Date"
-        android:inputType="textPersonName"
+        android:inputType="date"
         app:layout_constraintBottom_toTopOf="@+id/majEvent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -92,6 +92,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
