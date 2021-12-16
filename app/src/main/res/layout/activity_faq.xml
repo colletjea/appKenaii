@@ -7,7 +7,7 @@
     tools:context=".FAQ">
 
     <TextView
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/question1"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -30,14 +30,14 @@
         android:layout_marginTop="4dp"
         android:layout_marginBottom="67dp"
         android:text="Chez Stéphane Gérard en 3155"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintBottom_toTopOf="@+id/question2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/question1" />
 
     <TextView
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/question2"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -49,25 +49,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/question1" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/reponse2"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="67dp"
         android:text="Oui il est obligatoire !"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+        app:layout_constraintBottom_toTopOf="@+id/question10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.208"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/question2"
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/question10"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -79,10 +79,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/question2" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/reponse10"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -92,7 +92,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.208"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/question10"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
