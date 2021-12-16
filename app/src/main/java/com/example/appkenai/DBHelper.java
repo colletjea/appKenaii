@@ -90,7 +90,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public Cursor triParDate ()
     {
         SQLiteDatabase DB = this.getWritableDatabase();
-        Cursor cursor = DB.rawQuery("Select * from Userdetails order by date", null);
+        Cursor cursor = DB.rawQuery("Select * from Userdetails order by dob", null);
         return cursor;
 
     }
