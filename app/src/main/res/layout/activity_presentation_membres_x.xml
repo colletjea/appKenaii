@@ -10,40 +10,54 @@
         android:id="@+id/photo_membre"
         android:layout_width="201dp"
         android:layout_height="214dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/photo_clem" />
 
     <TextView
-        android:id="@+id/textePrénom"
+        android:id="@+id/textePrenom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Clémence Garnier"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="263dp" />
+        android:text="@string/nom_Clememnce"
+        app:layout_constraintBottom_toTopOf="@+id/texteFiliere"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo_membre"
+        app:layout_constraintVertical_bias="0.472" />
 
     <TextView
-        android:id="@+id/texteFilière"
+        android:id="@+id/texteFiliere"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
         android:text="Filière : E4FE"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="316dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textePoste"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo_membre"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textePoste"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
         android:text="Poste : Présidente"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="360dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo_membre" />
 
     <TextView
         android:id="@+id/textSport"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
         android:text="Sport.s pratiqué.s : Danse et Crossfit"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="418dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photo_membre" />
 </androidx.constraintlayout.widget.ConstraintLayout>

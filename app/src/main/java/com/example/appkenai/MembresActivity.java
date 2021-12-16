@@ -13,10 +13,42 @@ import android.widget.Toast;
 
 public class MembresActivity extends AppCompatActivity {
 Intent intent;
+    private String choixMembre;
+    private Button buttonAllerSurClemence;
+    private Button buttonAllerSurMarie;
+    String personneChoisie;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_membres);
+
+        Bundle b = new Bundle();
+
+        buttonAllerSurClemence = findViewById(R.id.bouton_Clemence);
+        buttonAllerSurClemence.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                personneChoisie = "Clemence";
+                intent = new Intent(getApplication(), PresentationMembresX.class);
+                b.putString("personneChoisie",personneChoisie);
+                intent.putExtras(b);
+                setContentView(R.layout.activity_presentation_membres_x);
+            }
+        });
+
+        buttonAllerSurMarie = findViewById(R.id.bouton_Marie);
+        buttonAllerSurMarie.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                personneChoisie = "Marie";
+                intent = new Intent(getApplication(), PresentationMembresX.class);
+                b.putString("personneChoisie",personneChoisie);
+                intent.putExtras(b);
+                setContentView(R.layout.activity_presentation_membres_x);
+            }
+        });
+
+
+
     }
 
 
