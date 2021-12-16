@@ -16,14 +16,17 @@ Intent intent;
     private String choixMembre;
     private Button buttonAllerSurClemence;
     private Button buttonAllerSurMarie;
+    private Button buttonAllerSurMartin;
+    private Button buttonAllerSurBenjamin;
+    private Button buttonAllerSurMona;
+    private Button buttonAllerSurPauline;
+
     String personneChoisie;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_membres);
-
-
 
         buttonAllerSurClemence = findViewById(R.id.bouton_Clemence);
         buttonAllerSurClemence.setOnClickListener(new View.OnClickListener() {
@@ -50,6 +53,59 @@ Intent intent;
                 setContentView(R.layout.activity_presentation_membres_x);
             }
         });
+
+        buttonAllerSurMartin = findViewById(R.id.bouton_Martin);
+        buttonAllerSurMartin.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Bundle b = new Bundle();
+                personneChoisie = "Martin";
+                intent = new Intent(getApplication(), PresentationMembresX.class);
+                b.putString("personneChoisie",personneChoisie);
+                intent.putExtras(b);
+                startActivity(intent);
+                setContentView(R.layout.activity_presentation_membres_x);
+            }
+        });
+
+        buttonAllerSurBenjamin = findViewById(R.id.bouton_Benjamin);
+        buttonAllerSurBenjamin.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Bundle b = new Bundle();
+                personneChoisie = "Benjamin";
+                intent = new Intent(getApplication(), PresentationMembresX.class);
+                b.putString("personneChoisie",personneChoisie);
+                intent.putExtras(b);
+                startActivity(intent);
+                setContentView(R.layout.activity_presentation_membres_x);
+            }
+        });
+
+        buttonAllerSurMona = findViewById(R.id.bouton_Mona);
+        buttonAllerSurMona.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Bundle b = new Bundle();
+                personneChoisie = "Mona";
+                intent = new Intent(getApplication(), PresentationMembresX.class);
+                b.putString("personneChoisie",personneChoisie);
+                intent.putExtras(b);
+                startActivity(intent);
+                setContentView(R.layout.activity_presentation_membres_x);
+            }
+        });
+
+        buttonAllerSurPauline = findViewById(R.id.bouton_Pauline);
+        buttonAllerSurPauline.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Bundle b = new Bundle();
+                personneChoisie = "Pauline";
+                intent = new Intent(getApplication(), PresentationMembresX.class);
+                b.putString("personneChoisie",personneChoisie);
+                intent.putExtras(b);
+                startActivity(intent);
+                setContentView(R.layout.activity_presentation_membres_x);
+            }
+        });
+
 
 
 

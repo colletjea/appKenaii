@@ -62,7 +62,7 @@ public class PresentationMembresX extends AppCompatActivity {
             case "Clemence":
                 varImage.setImageResource(R.drawable.photo_clem);
                 varNom.setText("Clemence");
-                varFiliere.setText(baseFiliere + "E4FE");
+                varFiliere.setText(baseFiliere + "E4-FE");
                 varPoste.setText(basePoste + "Prez");
                 varSportsPratiques.setText(baseSport + "danse");
                 return true;
@@ -70,11 +70,42 @@ public class PresentationMembresX extends AppCompatActivity {
             case "Marie":
                 varImage.setImageResource(R.drawable.photo_marie);
                 varNom.setText("Marie");
-                varFiliere.setText(baseFiliere + "E4");
+                varFiliere.setText(baseFiliere + "E4-BIO");
                 varPoste.setText(basePoste + "VP");
-                varSportsPratiques.setText(baseSport + "saute mouton");
+                varSportsPratiques.setText(baseSport + "course à pied et saute mouton");
                 return true;
 
+            case "Martin":
+                varImage.setImageResource(R.drawable.photo_martin);
+                varNom.setText("Martin");
+                varFiliere.setText(baseFiliere + "E4-BIO");
+                varPoste.setText(basePoste + "VP");
+                varSportsPratiques.setText(baseSport + "streat workout et football");
+                return true;
+
+            case "Benjamin":
+                varImage.setImageResource(R.drawable.photo_benj);
+                varNom.setText("Benjamin");
+                varFiliere.setText(baseFiliere + "E2");
+                varPoste.setText(basePoste + "Trésorier");
+                varSportsPratiques.setText(baseSport + "musculation et vélo");
+                return true;
+
+            case "Mona":
+                varImage.setImageResource(R.drawable.photo_mona);
+                varNom.setText("Mona");
+                varFiliere.setText(baseFiliere + "E4-BIO");
+                varPoste.setText(basePoste + "Secrétaire");
+                varSportsPratiques.setText(baseSport + "volley et raclette");
+                return true;
+
+            case "Pauline":
+                varImage.setImageResource(R.drawable.photo_pauline);
+                varNom.setText("Pauline");
+                varFiliere.setText(baseFiliere + "E4-IAC");
+                varPoste.setText(basePoste + "Respo Com'");
+                varSportsPratiques.setText(baseSport + "crossfit et sieste");
+                return true;
 
             default:
                 varNom.setText("VIDE");
@@ -85,4 +116,10 @@ public class PresentationMembresX extends AppCompatActivity {
 
         }
     }
+    public void onBackPressed(){ //onbackpressed = on a appuyé sur le bouton retour
+        intent = new Intent(getApplication(), MembresActivity.class);//on crée un intent qui permet d'ouvri l'appli memebre activité
+        startActivity(intent); //on lance cette action
+    }
 }
+
+//avec le bouton (c'est comme son on avait supprimé toute les informations du bundle)

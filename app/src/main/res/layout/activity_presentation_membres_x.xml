@@ -13,14 +13,14 @@
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/photo_clem" />
+        app:layout_constraintTop_toTopOf="parent"/>
+        <!--app:srcCompat="@drawable/photo_clem" /> -->
 
     <TextView
         android:id="@+id/textePrenom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/nom_Clememnce"
+        android:text=""
         app:layout_constraintBottom_toTopOf="@+id/texteFiliere"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
-        android:text="Filière : E4FE"
+        android:text=""
         app:layout_constraintBottom_toTopOf="@+id/textePoste"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="124dp"
-        android:text="Poste : Présidente"
+        android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="180dp"
-        android:text="Sport.s pratiqué.s : Danse et Crossfit"
+        android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/photo_membre" />
