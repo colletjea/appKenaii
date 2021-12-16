@@ -59,14 +59,6 @@ public class PresentationMembresX extends AppCompatActivity {
 
 
         switch (personneChoix){
-            case "Marie":
-                varImage.setImageResource(R.drawable.photo_marie);
-                varNom.setText("Marie");
-                varFiliere.setText(baseFiliere + "E4");
-                varPoste.setText(basePoste + "VP");
-                varSportsPratiques.setText(baseSport + "saute mouton");
-                return true;
-
             case "Clemence":
                 varImage.setImageResource(R.drawable.photo_clem);
                 varNom.setText("Clemence");
@@ -75,6 +67,13 @@ public class PresentationMembresX extends AppCompatActivity {
                 varSportsPratiques.setText(baseSport + "danse");
                 return true;
 
+            case "Marie":
+                varImage.setImageResource(R.drawable.photo_marie);
+                varNom.setText("Marie");
+                varFiliere.setText(baseFiliere + "E4");
+                varPoste.setText(basePoste + "VP");
+                varSportsPratiques.setText(baseSport + "saute mouton");
+                return true;
 
 
             default:

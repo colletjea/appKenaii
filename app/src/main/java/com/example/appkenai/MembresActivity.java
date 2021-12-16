@@ -23,15 +23,17 @@ Intent intent;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_membres);
 
-        Bundle b = new Bundle();
+
 
         buttonAllerSurClemence = findViewById(R.id.bouton_Clemence);
         buttonAllerSurClemence.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                Bundle b = new Bundle();
                 personneChoisie = "Clemence";
                 intent = new Intent(getApplication(), PresentationMembresX.class);
                 b.putString("personneChoisie",personneChoisie);
                 intent.putExtras(b);
+                startActivity(intent);
                 setContentView(R.layout.activity_presentation_membres_x);
             }
         });
@@ -39,13 +41,23 @@ Intent intent;
         buttonAllerSurMarie = findViewById(R.id.bouton_Marie);
         buttonAllerSurMarie.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                Bundle b = new Bundle();
                 personneChoisie = "Marie";
                 intent = new Intent(getApplication(), PresentationMembresX.class);
                 b.putString("personneChoisie",personneChoisie);
                 intent.putExtras(b);
+                startActivity(intent);
                 setContentView(R.layout.activity_presentation_membres_x);
             }
         });
+
+
+
+
+
+
+
+
 
 
 
