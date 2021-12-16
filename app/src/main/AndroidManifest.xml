@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.appkenai" >
 
     <application
@@ -17,7 +18,8 @@
             android:exported="true" />
         <activity
             android:name=".EventListAdapter"
-            android:exported="true" />
+            android:exported="true"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".ListingEvent"
             android:exported="true" />
@@ -35,9 +37,6 @@
             android:exported="true" />
         <activity
             android:name=".MembresActivity"
-            android:exported="true" />
-        <activity
-            android:name=".Event2"
             android:exported="true" />
         <activity
             android:name=".Accueil"
