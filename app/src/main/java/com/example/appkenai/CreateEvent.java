@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -25,6 +27,7 @@ public class CreateEvent extends AppCompatActivity {
     private EditText varDescriptionEvent;
     private EditText varDateEvent;
     DBHelper DB;
+    Intent intent;
 
 
     @Override
@@ -129,16 +132,48 @@ public class CreateEvent extends AppCompatActivity {
 
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
 
-    //private void saveData(View view){
-    //    SharedPreferences sharedPreferences= this.getSharedPreferences("tabEvent", Context.MODE_PRIVATE);
-    //    SharedPreferences.Editor editor = sharedPreferences.edit();
-    //
-    //    editor.putString("nameEvent", this.nameEvent.getText().toString());
-    //    editor.putString("descEvent", "descriptionEvent");
-    //    editor.apply();
-    //    Toast.makeText(this,"Event ok",Toast.LENGTH_LONG).show();
-    //}
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.menu_accueil:
+                intent = new Intent(getApplication(), Accueil.class);
+                startActivity(intent);
+                return true;
 
+            case R.id.menu_referentsSports:
+                intent = new Intent(getApplication(), ReferentsSports.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.menu_Event:
+                intent = new Intent(getApplication(), ListingEvent.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.menu_PlanningDesSports:
+                intent = new Intent(getApplication(), PlanningDesSports.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.menu_FAQ:
+                intent = new Intent(getApplication(), FAQ.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.menu_Bonus:
+                Intent intent = new Intent(getApplication(), Bonus.class);
+                startActivity(intent);
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
 }
