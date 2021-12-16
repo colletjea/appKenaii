@@ -33,6 +33,7 @@ public class ListingEvent extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Evènements");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listing_event);
 

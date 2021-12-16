@@ -13,6 +13,7 @@ public class PlanningDesSports extends AppCompatActivity {
 Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Planning des sports");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_planning_des_sports);
     }

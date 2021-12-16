@@ -25,6 +25,7 @@ Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Membres");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_membres);
 

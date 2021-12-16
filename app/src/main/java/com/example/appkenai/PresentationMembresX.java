@@ -29,12 +29,14 @@ public class PresentationMembresX extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Membres");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_presentation_membres_x);
 
         ChoixPersonnes();
 
         System.out.println("test");System.out.println("test");System.out.println("test");System.out.println("test");System.out.println("test");System.out.println("test");System.out.println("test");System.out.println("test");
+
 
     }
 

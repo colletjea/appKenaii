@@ -12,6 +12,7 @@ public class ReferentsSports extends AppCompatActivity {
 Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Référents sports");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_referents_sports);
     }

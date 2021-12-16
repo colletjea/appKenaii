@@ -12,6 +12,7 @@ public class Bonus extends AppCompatActivity {
 Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTitle("Développeurs");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bonus);
     }
