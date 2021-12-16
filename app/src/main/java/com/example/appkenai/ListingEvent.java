@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -28,12 +29,17 @@ public class ListingEvent extends AppCompatActivity {
     int i = 0;
     String L1, L2, L3;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listing_event);
 
         DB = new DBHelper(this);
+
+
+
         lv = (ListView) findViewById(R.id.ListViewEvent);
         ArrayList<Event> eventList = new ArrayList<>();
 

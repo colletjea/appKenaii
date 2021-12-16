@@ -13,6 +13,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.text.Normalizer;
+
 public class CreateEvent extends AppCompatActivity {
 
     private Button varCreateEvent;
@@ -95,16 +97,25 @@ public class CreateEvent extends AppCompatActivity {
         varAfficherEvent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
         Cursor res = DB.getdata();
         if(res.getCount()==0){
             Toast.makeText(CreateEvent.this, "Aucun évent n'existe avec ce nom...", Toast.LENGTH_SHORT).show();
             return;
         }
+
+
+
+
+
+
+
         StringBuffer buffer = new StringBuffer();
         while(res.moveToNext()){
             buffer.append("Name :"+res.getString(0)+"\n");
             buffer.append("descrption :"+res.getString(1)+"\n");
             buffer.append("Date de l'évent :"+res.getString(2)+"\n\n");
+
         }
 
         AlertDialog.Builder builder = new AlertDialog.Builder(CreateEvent.this);

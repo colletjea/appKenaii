@@ -42,6 +42,8 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
 
+
+
     public Boolean updateuserdata(String name, String contact, String dob) {
         SQLiteDatabase DB = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
@@ -84,5 +86,20 @@ public class DBHelper extends SQLiteOpenHelper {
         return cursor;
 
     }
+
+    public Cursor triParDate ()
+    {
+        SQLiteDatabase DB = this.getWritableDatabase();
+        Cursor cursor = DB.rawQuery("Select * from Userdetails order by date", null);
+        return cursor;
+
+    }
+
+
+    //String strSql = "select * from DB order by date";
+    //Cursor cursor = DB.getReadableDatabase().rawQuery(strSql,null);
+    //startActionMode(cursor);
+    //return cursor;
+
 }
 
