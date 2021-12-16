@@ -10,6 +10,8 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.os.IResultReceiver;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -122,6 +124,50 @@ public class PresentationMembresX extends AppCompatActivity {
         intent = new Intent(getApplication(), MembresActivity.class);//on crée un intent qui permet d'ouvri l'appli memebre activité
         startActivity(intent); //on lance cette action
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId()){
+            case R.id.menu_accueil:
+                intent = new Intent(getApplication(), Accueil.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.menu_referentsSports:
+                intent = new Intent(getApplication(), ReferentsSports.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.menu_Event:
+                intent = new Intent(getApplication(), ListingEvent.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.menu_PlanningDesSports:
+                intent = new Intent(getApplication(), PlanningDesSports.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.menu_FAQ:
+                intent = new Intent(getApplication(), FAQ.class);
+                startActivity(intent);
+                return true;
+
+            case R.id.menu_Bonus:
+                Intent intent = new Intent(getApplication(), Bonus.class);
+                startActivity(intent);
+                return true;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
 }
 
-//avec le bouton (c'est comme son on avait supprimé toute les informations du bundle)
