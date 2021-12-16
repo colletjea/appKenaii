@@ -6,14 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".FAQ">
 
-    <EditText
+    <TextView
         android:id="@+id/editTextTextPersonName"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="48dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:text="Où récupérer mon stickers cotisant ?"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,29 +24,30 @@
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="400dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="4dp"
-        android:layout_marginLeft="20dp"
         android:layout_marginBottom="67dp"
-        android:text="Chez Stéphane Gerard en 3155"
+        android:text="Chez Stéphane Gérard en 3155"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.133"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="400dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="84dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:layout_marginLeft="70dp"
-        android:text="Le passe sanitaire est-il obligatoire"
+        android:text="Le pass sanitaire est-il obligatoire"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
@@ -52,6 +55,7 @@
         android:id="@+id/textView10"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="4dp"
         android:layout_marginBottom="67dp"
         android:text="Oui il est obligatoire !"
@@ -62,14 +66,16 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
         app:layout_constraintVertical_bias="1.0" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="88dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:text="Les développeurs sont-il beaux ?"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,6 +85,7 @@
         android:id="@+id/textView11"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="4dp"
         android:text="Tout est relatif, mais oui !"
         app:layout_constraintBottom_toBottomOf="parent"
