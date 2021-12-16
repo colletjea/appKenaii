@@ -253,7 +253,7 @@
                 <ImageView
                     android:layout_width="110dp"
                     android:layout_height="110dp"
-                    android:src="@drawable/logo_bonus" />
+                    android:src="@drawable/logo_surfriiise" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 

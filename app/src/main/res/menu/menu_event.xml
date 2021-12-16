@@ -31,7 +31,7 @@
     <item android:id="@+id/menu_Bonus"
         android:orderInCategory="100"
         app:showAsAction="never"
-        android:title="Bonus" />
+        android:title="Surfriiise" />
 
     <item android:id="@+id/menu_Ajout_Event"
         android:orderInCategory="100"
