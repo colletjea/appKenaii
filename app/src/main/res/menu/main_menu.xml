@@ -6,7 +6,12 @@
     <item android:id="@+id/menu_accueil"
           android:orderInCategory="100"
           app:showAsAction="never"
-          android:title="Accueil" /> <!-- apparait dans le pop up du menu -->
+          android:title="Accueil" />
+
+    <item android:id="@+id/menu_Membres"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Membres" />
 
     <item android:id="@+id/menu_referentsSports"
         android:orderInCategory="100"

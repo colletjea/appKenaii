@@ -53,6 +53,11 @@ private ImageView varImageSurfriise;
                 startActivity(intent);
                 return true;
 
+            case R.id.menu_Membres:
+                intent = new Intent(getApplication(), MembresActivity.class);
+                startActivity(intent);
+                return true;
+
             case R.id.menu_referentsSports:
                 intent = new Intent(getApplication(), ReferentsSports.class);
                 startActivity(intent);
