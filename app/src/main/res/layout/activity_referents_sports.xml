@@ -15,70 +15,126 @@
         android:src="@drawable/lundi_gif">
     </pl.droidsonroids.gif.GifImageView>-->
 
+    <ImageView
+        android:id="@+id/iconAqua"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ReferentAquaPoney"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/carr_beige" />
 
     <TextView
         android:id="@+id/ReferentAquaPoney"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="60dp"
         android:text="@string/RefAquaPoney"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iconAqua"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/iconBasketBallM"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ReferentBasketM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/carr_beige" />
 
     <TextView
         android:id="@+id/ReferentBasketM"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
         android:text="@string/RefBasketM"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iconBasketBallM"
         app:layout_constraintTop_toBottomOf="@+id/ReferentAquaPoney" />
+
+
+    <ImageView
+        android:id="@+id/iconBasketBall"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/referentBasketF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/carr_beige" />
+
 
     <TextView
         android:id="@+id/referentBasketF"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
         android:text="@string/RefBasketF"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iconBasketBall"
         app:layout_constraintTop_toBottomOf="@+id/ReferentBasketM" />
+
+    <ImageView
+        android:id="@+id/iconBasketBallF"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/referentTennis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/carr_beige" />
+
 
     <TextView
         android:id="@+id/referentTennis"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
         android:text="@string/RefTennis"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iconBasketBallF"
         app:layout_constraintTop_toBottomOf="@+id/referentBasketF" />
+
+    <ImageView
+        android:id="@+id/iconLuge"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/referentLuge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/carr_beige" />
 
     <TextView
         android:id="@+id/referentLuge"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
         android:text="@string/RefLuge"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iconLuge"
         app:layout_constraintTop_toBottomOf="@+id/referentTennis" />
 
 
