@@ -43,7 +43,7 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="84dp"
         android:ems="10"
-        android:text="Le pass sanitaire est-il obligatoire"
+        android:text="Le pass sanitaire est-il obligatoire ?"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

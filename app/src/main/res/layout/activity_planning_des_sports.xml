@@ -28,7 +28,7 @@
                     <pl.droidsonroids.gif.GifImageView
                         android:layout_width="400dp"
                         android:layout_height="400dp"
-                        android:src="@drawable/lundi_gif1">
+                        android:src="@drawable/lundi_gif">
                     </pl.droidsonroids.gif.GifImageView>
                     <ImageView
                         android:id="@+id/lignelundi_12"
