@@ -6,16 +6,28 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class ReferentsSports extends AppCompatActivity {
 Intent intent;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setTitle("Référents sports");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_referents_sports);
+
+
+
     }
+
+
+
+
+
+
+
 
 
     @Override

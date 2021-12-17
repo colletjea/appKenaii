@@ -12,4 +12,12 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_planning_des_sports">PlanningDesSports</string>
     <string name="title_activity_membres_clemence">MembresClemenceActivity</string>
+    <string name="nom_Clememnce">"Clémence Garnier"</string>
+    <string name="RefAquaPoney">"AquaPoney : Jenage SOULO"</string>
+    <string name="RefBasketM">"Basketball (M) : Romain BOURDEAUX"</string>
+    <string name="RefBasketF">"Basketball (F) : Lab ALLEREBONDI"</string>
+    <string name="RefHanballM">"Handball (M) : Cédric BENZA"</string>
+    <string name="RefTennis">"Tennis : Kévin JEONG"</string>
+    <string name="RefLuge">"Luge : Jean AGLISSER"</string>
+    RefAquaPoney
 </resources>
