@@ -109,39 +109,14 @@ Intent intent;
 
 
 
-
-
-
-
-
-
-
-
-
     }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public void onBackPressed(){ //onbackpressed = on a appuyé sur le bouton retour
+        intent = new Intent(getApplication(), Accueil.class);//on crée un intent qui permet d'ouvri l'appli memebre activité
+        startActivity(intent); //on lance cette action
+    }
 
 
 
