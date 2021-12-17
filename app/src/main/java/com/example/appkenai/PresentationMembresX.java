@@ -68,7 +68,7 @@ public class PresentationMembresX extends AppCompatActivity {
                 varNom.setText("Clemence");
                 varFiliere.setText(baseFiliere + "E4-FE");
                 varPoste.setText(basePoste + "Prez");
-                varSportsPratiques.setText(baseSport + "danse");
+                varSportsPratiques.setText(baseSport + "danse, crossfit et raclette");
                 return true;
 
             case "Marie":
