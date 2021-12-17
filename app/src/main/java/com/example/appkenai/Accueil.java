@@ -14,6 +14,7 @@ import android.widget.ImageView;
 public class Accueil extends AppCompatActivity {
     Intent intent;
     ImageView membres;
+
     //private Button buttonAllerSurMembres;
 
 
@@ -21,6 +22,7 @@ public class Accueil extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accueil);
+        setTitle("BDS ESIEE Paris");
 
         //page membre
         Button buttonAllerSurMembres=findViewById(R.id.buttonMembres);
