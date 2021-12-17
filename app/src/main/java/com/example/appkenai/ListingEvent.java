@@ -112,7 +112,8 @@ public class ListingEvent extends AppCompatActivity {
                 return true;
 
             case R.id.menu_Event:
-                Toast.makeText(this,"viendra au prochain commit", Toast.LENGTH_LONG).show();
+                intent = new Intent(getApplication(), ListingEvent.class);
+                startActivity(intent);
                 return true;
 
             case R.id.menu_PlanningDesSports:
