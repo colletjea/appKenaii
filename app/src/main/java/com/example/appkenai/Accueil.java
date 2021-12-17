@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class Accueil extends AppCompatActivity {
-
+    Intent intent;
     ImageView membres;
     //private Button buttonAllerSurMembres;
 
@@ -79,4 +79,11 @@ public class Accueil extends AppCompatActivity {
         });
 
     }
+
+
+    public void onBackPressed(){ //onbackpressed = on a appuyé sur le bouton retour
+        intent = new Intent(getApplication(), Accueil.class);//on crée un intent qui permet d'ouvri l'appli memebre activité
+        startActivity(intent); //on lance cette action
+    }
+
 }
